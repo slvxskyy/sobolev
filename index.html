@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOBOLEV — Vibe Coder</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Логотип */
+  .logo {
+    font-size: 48px;
+    letter-spacing: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .logo-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  /* Подзаголовок */
+  .tagline {
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+
+  /* Блоки */
+  .section {
+    margin-bottom: 60px;
+    text-align: left;
+  }
+
+  .section h2 {
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  .section p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+
+  /* Услуги */
+  .services {
+    list-style: none;
+  }
+
+  .services li {
+    font-size: 16px;
+    color: #ccc;
+    padding: 10px 0;
+    border-bottom: 1px solid #1a1a1a;
+  }
+
+  .services li::before {
+    content: "— ";
+    color: #fff;
+  }
+
+  /* Контакты */
+  .contacts a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+    transition: border-color 0.3s;
+  }
+
+  .contacts a:hover {
+    border-color: #fff;
+  }
+
+  .contacts p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+
+  /* Кнопка */
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .btn:hover {
+    background: #fff;
+    color: #0a0a0a;
+  }
+
+  /* Футер */
+  footer {
+    margin-top: 80px;
+    font-size: 12px;
+    color: #444;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Логотип -->
+  <!-- Вставь сюда свою картинку с соболем. Если картинки нет — удали строку ниже -->
+  <img src="https://i.postimg.cc/ZnMZVwqg/C17D2B87-52C3-4787-B8F7-93B7C8F93A2C.png" alt="SOBOLEV" class="logo-img">
+  <div class="logo">SOBOLEV</div>
+  <div class="tagline">Vibe Coder</div>
+
+  <!-- Обо мне -->
+  <div class="section">
+    <h2>Обо мне</h2>
+    <p>Мне 16. Я создаю сайты и приложения, которые решают задачи, а не просто красиво выглядят. Работаю быстро, говорю прямо, не трачу время на лишнее.</p>
+    <p>Мой подход — видеть цель, находить слабое место и бить точно. Так же, как в коде: если что-то не работает — я не гадаю, я ищу причину.</p>
+  </div>
+
+  <!-- Услуги -->
+  <div class="section">
+    <h2>Что я делаю</h2>
+    <ul class="services">
+      <li>Лендинги и сайты-визитки</li>
+      <li>Интернет-магазины и каталоги</li>
+      <li>Веб-приложения под задачу</li>
+      <li>Автоматизация и интеграции</li>
+    </ul>
+  </div>
+
+  <!-- Контакты -->
+  <div class="section contacts">
+    <h2>Контакты</h2>
+    <p>Telegram: <a href="https://t.me/syrce" target="_blank">@syrce</a></p>
+    <p>Почта: <a href="mailto:sobolev.vsevolod98@gmail.com">sobolev.vsevolod98@gmail.com</a></p>
+    <a href="https://t.me/syrce" class="btn" target="_blank">Написать</a>
+  </div>
+
+  <!-- Футер -->
+  <footer>
+    © 2026 SOBOLEV
+  </footer>
+
+</div>
+
+</body>
+</html>
